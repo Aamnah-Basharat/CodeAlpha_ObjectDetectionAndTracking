@@ -1,4 +1,4 @@
-# 🎯 CodeAlpha Object Detection and Tracking
+# 🎯Object Detection and Tracking
 
 A real-time AI-powered Object Detection and Tracking web application built using **Python**, **Flask**, **OpenCV**, **YOLOv8**, and **ByteTrack**. The application captures live video from a webcam, detects multiple objects in real time, assigns unique tracking IDs, and displays the processed video directly in the browser.
 
