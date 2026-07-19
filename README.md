@@ -131,16 +131,6 @@ http://127.0.0.1:5000
 
 ---
 
-## 🎯 Internship Requirements Covered
-
-- ✅ Set up real-time video input using OpenCV
-- ✅ Use a pre-trained YOLO model for object detection
-- ✅ Detect and label objects in every frame
-- ✅ Apply object tracking using ByteTrack
-- ✅ Display bounding boxes and tracking IDs in real time
-
----
-
 ## 👩‍💻 Author
 
 **Aamnah Basharat**
