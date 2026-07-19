@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Object Detection & Tracking</title>
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="glass-card">
+        <h1>Object Detection & Tracking</h1>
+        <p class="subtitle">Real-Time AI Object Detection using YOLOv8</p>
+        <div class="video-container">
+          <img id="video-feed" src="" draggable="false" />
+        </div>
+        <div class="controls">
+          <button id="start-btn">Start Camera</button>
+          <button id="stop-btn">Stop Camera</button>
+        </div>
+        <div class="status-bar">
+          <span> Camera: <strong id="camera-status"> Stopped </strong> </span>
+        </div>
+      </div>
+    </div>
+    <div id="toast"></div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
