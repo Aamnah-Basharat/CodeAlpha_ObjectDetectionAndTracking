@@ -1,5 +1,12 @@
+# Virtual Environment
+venv/
+
 # Python cache
 __pycache__/
 *.py[cod]
+
 # YOLO model weights
 *.pt
+
+# Environment variables
+.env
